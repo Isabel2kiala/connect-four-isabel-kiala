@@ -47,7 +47,7 @@ node server/server.js
 
 
 ### frontend
-```bash
+
 cd frontend
 npm install
 npm start
