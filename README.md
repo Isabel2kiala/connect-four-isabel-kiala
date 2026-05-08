@@ -44,11 +44,14 @@ Um jogo Connect Four desenvolvido com React (frontend) e Node.js (backend) como 
 cd backend
 npm install
 node server/server.js
+```
 
 
 ### frontend
 
+```bash
 cd frontend
 npm install
 npm start
+```
 
