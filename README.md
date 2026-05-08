@@ -38,7 +38,7 @@ Um jogo Connect Four desenvolvido com React (frontend) e Node.js (backend) como 
 
 ## ⚙️ Como executar o projeto
 
-### Backend e Frontend
+### Backend
 
 ```bash
 cd backend
