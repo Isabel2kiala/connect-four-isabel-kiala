@@ -1,0 +1,36 @@
+.cell {
+  width: 70px;
+  height: 70px;
+  background: #1e3a8a;
+  border: 2px solid #0f172a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.piece {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  animation: drop 0.4s ease;
+}
+
+.red {
+  background: #ef4444;
+}
+
+.yellow {
+  background: #facc15;
+}
+
+@keyframes drop {
+  from {
+    transform: translateY(-400px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
