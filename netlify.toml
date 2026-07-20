@@ -1,0 +1,9 @@
+[build]
+  base = "frontend"        # diz ao Netlify pra entrar na pasta frontend/ antes de tudo
+  command = "npm run build"  # comando de build
+  publish = "build"        # pasta com o resultado (relativa ao "base", então é frontend/build)
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
